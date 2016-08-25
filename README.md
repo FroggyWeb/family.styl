@@ -4,7 +4,7 @@ Family.styl is the stylus port of [Family.scss](https://github.com/LukyVj/family
 
 Family.styl is a set of 26 smart stylus mixins which will help you to manage the style of :nth-child'ified elements, in an easy and classy way.
 
-# Mixins
+## Mixins
 
 * `first($num)` — Select all children from the first to `$num`
 * `last($num)` — Select all children from the last to `$num`
@@ -35,6 +35,6 @@ Family.styl is a set of 26 smart stylus mixins which will help you to manage the
 * `not-unique()` — Will only select children if they are not unique. Meaning if there is at least 2 children, the style is applied
 * `child-index($num, $direction = 'forward', $index = 0)` — This mixin is used to automatically sort z-index in numerical order. But it can also sort them in anti-numerical order, depending the parameters you use
 
-# License
+## License
 
 [MIT License](LICENSE)
